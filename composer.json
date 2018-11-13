@@ -32,6 +32,7 @@
         "incenteev/composer-parameter-handler": "^2.0",
         "javiereguiluz/easyadmin-bundle": "^1.16",
         "knplabs/knp-paginator-bundle": "^2.5",
+        "php-amqplib/rabbitmq-bundle": "^1.14",
         "sensio/distribution-bundle": "^5.0",
         "sensio/framework-extra-bundle": "^3.0.2",
         "symfony/monolog-bundle": "^3.0.2",
