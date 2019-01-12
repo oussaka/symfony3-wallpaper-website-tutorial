@@ -34,3 +34,7 @@ services:
             - "@app.service.wallpaper_file_path_helper"
         tags:
             - { name: doctrine.event_listener, event: prePersist }
+
+    AppBundle\Event\Subscriber\MaintenanceSubscriber:
+        arguments: ['%maintenance%', '%kernel.environment%', '@templating']
+        tags: [kernel.event_subscriber]
